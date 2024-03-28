@@ -34,7 +34,7 @@ made is based on the question: "Is $a < b$?" The only two answers from this are 
 and "no", so for every permutation, the pathway in the worst-case scenario
 involves travelling through at least $\log{_2}{(n!)} \in \Omega(n\log{n})$ by
 Stirling's approximation. Although the best case scenario (as seen in insertion
-sort) could be $\O(n)$, we cannot assume that every element is sorted
+sort) could be $O(n)$, we cannot assume that every element is sorted
 (especially given the claim concerning arbitrary elements). Therefore, I would
 argue that the algorithm would fail to sort some orderings given.
 
@@ -43,7 +43,7 @@ prove this argument wrong. In order to test against my argument, I would systema
 generate every permutation (a la Brute Force sorting) and run it through the
 researcher's sorting algorithm. Then, I would check to see if each permutation
 was sorted correctly. If every single permutation is sorted correctly assuming
-the algorithm runs in $\O(n)$ time, I would request to see the source code
+the algorithm runs in $O(n)$ time, I would request to see the source code
 before jumping to any conclusions. Otherwise, I would print the failed ordering
 that the algorithm returned. 
 
